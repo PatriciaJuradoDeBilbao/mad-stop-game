@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from '@/components/HelloWorld.vue'
+import TheTitle from "@/components/TheTitle.vue";
 </script>
 
 <template>
   <header>
+    <TheTitle msg="MAD Stop Game" />
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
@@ -26,8 +28,6 @@ import HelloWorld from '@/components/HelloWorld.vue'
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-
   font-weight: normal;
 }
 
