@@ -18,7 +18,7 @@ import RandomLetter from "@/components/RandomLetter.vue"
     </div>
   </header>
   <RouterView />
-  <TheFooter msg="Develop by Patylla" />
+  <TheFooter msg="Develop by Paty" />
 </template>
 
 <style>
