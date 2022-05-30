@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import StopCategories from '@/components/StopCategories.vue'
+// import StopCategories from '@/components/StopCategories.vue'
 </script>
 
 <template>
   <main>
-    <StopCategories />
+    <!-- <StopCategories /> -->
   </main>
 </template>

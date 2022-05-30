@@ -1,4 +1,4 @@
-<!-- <script setup lang="ts"></script>
+<script setup lang="ts"></script>
 <template>
   <div class="categories">
     <div class="category__container">
@@ -47,4 +47,4 @@ input {
   border-radius: 8px;
   border: 1px solid #00bd7e;
 }
-</style> -->
+</style>
