@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '@/components/TheWelcome.vue'
+import StopCategories from '@/components/StopCategories.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <StopCategories />
   </main>
 </template>

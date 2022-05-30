@@ -1,4 +1,4 @@
-# mad-stop-game
+# Stop-game
 
 ## Ideas MVP
 - Mobile layout with categories

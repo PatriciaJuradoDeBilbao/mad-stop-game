@@ -1,25 +1,24 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from '@/components/HelloWorld.vue'
-import TheTitle from "@/components/TheTitle.vue";
+import TheHome from "@/components/TheHome.vue"
+import TheFooter from "@/components/TheFooter.vue"
+import RandomLetter from "@/components/RandomLetter.vue"
+
 </script>
 
 <template>
-  <header>
-    <TheTitle msg="MAD Stop Game" />
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+  <header> 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
+      <TheHome msg="Stop Game" />
+      <RandomLetter />
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <!-- <RouterLink to="/">Game</RouterLink> -->
+        <!-- <RouterLink to="/about">About</RouterLink> -->
       </nav>
     </div>
   </header>
-
   <RouterView />
+  <TheFooter msg="Develop by Patylla" />
 </template>
 
 <style>
