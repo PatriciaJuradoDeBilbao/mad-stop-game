@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps<{
-  msg: string;
-}>();
+  msg: string
+}>()
 </script>
 <template>
   <div class="header">
@@ -25,7 +25,9 @@ defineProps<{
           <li class="instructions__subitems">
             100pts If you are the only one with that word.
           </li>
-          <li class="instructions__subitems">50pts If your word is repeated.</li>
+          <li class="instructions__subitems">
+            50pts If your word is repeated.
+          </li>
         </ul>
       </li>
     </ul>

@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref } from 'vue'
 
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 const getRandomLetter = () =>
-  letters[Math.floor(Math.random() * letters.length)];
+  letters[Math.floor(Math.random() * letters.length)]
 
-const randomLetter = ref(getRandomLetter());
+const randomLetter = ref(getRandomLetter())
 
 const setRandomLetter = () => {
-  randomLetter.value = getRandomLetter();
-};
+  randomLetter.value = getRandomLetter()
+}
 </script>
 
 <template>

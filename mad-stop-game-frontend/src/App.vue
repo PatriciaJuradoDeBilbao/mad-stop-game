@@ -1,13 +1,12 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import TheHome from "@/components/TheHome.vue"
-import TheFooter from "@/components/TheFooter.vue"
-import RandomLetter from "@/components/RandomLetter.vue"
-
+import TheHome from '@/components/TheHome.vue'
+import TheFooter from '@/components/TheFooter.vue'
+import RandomLetter from '@/components/RandomLetter.vue'
 </script>
 
 <template>
-  <header> 
+  <header>
     <div class="wrapper">
       <TheHome msg="Stop Game" />
       <RandomLetter />
