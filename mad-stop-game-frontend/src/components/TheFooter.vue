@@ -12,9 +12,8 @@ defineProps<{
 footer {
   background-color: #00bd7e;
   padding: 15px;
-  bottom: 0;
-  position: fixed;
   width: 100%;
+  margin-top: 40px;
 }
 .footer__title {
   font-size: 16px;

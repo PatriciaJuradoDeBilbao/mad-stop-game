@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView } from 'vue-router'
 import TheHome from '@/components/TheHome.vue'
 import TheFooter from '@/components/TheFooter.vue'
 import RandomLetter from '@/components/RandomLetter.vue'
@@ -10,13 +10,12 @@ import RandomLetter from '@/components/RandomLetter.vue'
     <div class="wrapper">
       <TheHome msg="Stop Game" />
       <RandomLetter />
-      <nav>
-        <!-- <RouterLink to="/">Game</RouterLink> -->
-        <!-- <RouterLink to="/about">About</RouterLink> -->
-      </nav>
     </div>
   </header>
-  <!-- <RouterView /> -->
+  <nav>
+    <RouterLink to="/game">Let's play!</RouterLink>
+  </nav>
+  <RouterView />
   <TheFooter msg="Develop by Paty" />
 </template>
 
@@ -54,7 +53,7 @@ a,
 
 nav {
   width: 100%;
-  font-size: 12px;
+  font-size: 25px;
   text-align: center;
   margin-top: 2rem;
 }

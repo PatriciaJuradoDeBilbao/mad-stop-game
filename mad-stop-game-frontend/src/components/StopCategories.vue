@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import StopButton from './Stopbutton.vue'
+</script>
 <template>
   <div class="categories">
     <div class="category__container">
@@ -26,6 +28,7 @@
       <input />
     </div>
   </div>
+  <StopButton />
 </template>
 <style lang="css">
 .categories {
@@ -39,12 +42,17 @@
 }
 label {
   font-size: 18px;
-  font-weight: 700px;
   margin-bottom: 5px;
 }
 input {
+  font-size: 20px;
   height: 50px;
   border-radius: 8px;
   border: 1px solid #00bd7e;
+  padding: 8px 15px;
+}
+input:focus {
+  outline: none;
+  background-color: #b3e3d3;
 }
 </style>

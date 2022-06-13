@@ -15,7 +15,7 @@ const setRandomLetter = () => {
 
 <template>
   <div class="button__container">
-    <button @click="setRandomLetter" class="button">
+    <button class="button" @click="setRandomLetter">
       Choose random letter
     </button>
   </div>
@@ -59,6 +59,6 @@ button {
 .random-letter {
   display: flex;
   justify-content: center;
-  font-size: 24px;
+  font-size: 20px;
 }
 </style>
