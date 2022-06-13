@@ -1,20 +1,16 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import TheHome from '@/components/TheHome.vue'
+import { RouterView } from 'vue-router'
 import TheFooter from '@/components/TheFooter.vue'
-import RandomLetter from '@/components/RandomLetter.vue'
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <TheHome msg="Stop Game" />
-      <RandomLetter />
+      <div class="header">
+        <h1 class="title">Stop Game</h1>
+      </div>
     </div>
   </header>
-  <nav>
-    <RouterLink to="/game">Let's play!</RouterLink>
-  </nav>
   <RouterView />
   <TheFooter msg="Develop by Paty" />
 </template>
@@ -27,12 +23,21 @@ import RandomLetter from '@/components/RandomLetter.vue'
   margin: 0 auto;
   font-weight: normal;
 }
-
 header {
   line-height: 1.5;
   max-height: 100vh;
 }
-
+.title {
+  font-size: 40px;
+  font-weight: 700px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.header {
+  background-color: #00bd7e;
+  padding: 15px;
+}
 .logo {
   display: block;
   margin: 0 auto 2rem;
